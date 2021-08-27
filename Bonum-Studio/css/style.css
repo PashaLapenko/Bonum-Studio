@@ -1,0 +1,1139 @@
+@font-face {
+  font-family: "Cera Pro Bolt";
+  src: url("../fonts/CeraPro-Bold/CeraPro-Bold.eot");
+  src: local("Cera Pro Bold"), local("CeraPro-Bold"),
+    url("../fonts/CeraPro-Bold/CeraPro-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/CeraPro-Bold/CeraPro-Bold.woff") format("woff"),
+    url("../fonts/CeraPro-Bold/CeraPro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cera Pro Regular";
+  src: url("../fonts/CeraPro-Regular/CeraPro-Regular.eot");
+  src: local("Cera Pro Regular"), local("CeraPro-Regular"),
+    url("../fonts/CeraPro-Regular/CeraPro-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/CeraPro-Regular/CeraPro-Regular.woff") format("woff"),
+    url("../fonts/CeraPro-Regular/CeraPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+body {
+  max-width: 1921px;
+}
+
+.home {
+  background-image: url(../image/Virna_oblojka_home.png);
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  max-width: 100%;
+  margin-bottom: 78px;
+}
+
+.home_blur-rectangle {
+  height: 1055px;
+  width: 855px;
+  backdrop-filter: blur(30px);
+  background: rgba(255, 255, 255, 0.8);
+  position: relative;
+}
+
+.home_blur-rectangle_logo {
+  height: 16px;
+  width: 120px;
+  position: absolute;
+  top: 50px;
+  left: 255px;
+}
+
+.home_blur-rectangle_logo svg {
+  height: 16px;
+  width: 120px;
+}
+
+.home_name-brand_main-text {
+  position: absolute;
+  top: 283px;
+  left: 255px;
+  width: 470px;
+  height: 165px;
+}
+
+.home_name-brand_main-text h1 {
+  font-family: "Cera Pro Bolt";
+  color: black;
+  font-size: 72px;
+}
+
+.home_subtext {
+  position: absolute;
+  top: 510px;
+  left: 225px;
+  width: 130px;
+  height: 70px;
+  transform: rotate(270deg);
+  text-align: right;
+}
+
+.home_subtext h1 {
+  font-family: "Cera Pro Regular";
+  color: black;
+  font-size: 14px;
+}
+
+.home_icon-block {
+  position: absolute;
+  top: 985px;
+  left: 255px;
+  width: 504px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home_icon-block_icon-menu {
+  width: 215px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home_white_rectangle {
+  height: 1055px;
+  width: 465px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.home_logo_bonum {
+  position: absolute;
+  top: 50px;
+  left: 145px;
+}
+
+.home_white_rectangle_text {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 526px;
+  left: 122px;
+}
+
+.home_white_rectangle_text h1 {
+  font-family: "Cera Pro Regular";
+  color: black;
+  font-size: 16px;
+}
+
+.home_white_rectangle_text p {
+  font-family: "Cera Pro Bolt";
+  color: black;
+  font-size: 16px;
+}
+
+.home_white_rectangle_language {
+  display: none;
+}
+
+.block-style {
+  display: flex;
+  max-width: 1921px;
+  height: 1830px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.block-style_heading {
+  width: 100%;
+  height: 38px;
+  margin-top: 22px;
+  text-align: center;
+}
+
+.block-style_heading h1 {
+  font-family: "Cera Pro Bolt";
+  color: black;
+  font-size: 30px;
+}
+
+.block-style_dark-text {
+  position: absolute;
+  top: 110px;
+  left: 255px;
+  width: auto;
+  height: auto;
+}
+
+.block-style_dark-text h1 {
+  font-family: "Cera Pro Regular";
+  color: black;
+  font-size: 16px;
+  transform: rotate(270deg);
+}
+
+.block-style_russin-text {
+  position: absolute;
+  top: 110px;
+  left: 1095px;
+  width: 316px;
+  height: 80px;
+}
+
+.block-style_russin-text h1 {
+  font-family: "Cera Pro Regular";
+  color: black;
+  font-size: 14px;
+}
+
+.block-style_thumbnail {
+  position: absolute;
+  top: 240px;
+  left: 305px;
+  width: 434px;
+  height: auto;
+}
+
+.block-style_thumbnail h1 {
+  font-family: "Cera Pro Bolt";
+  color: black;
+  font-size: 56px;
+}
+
+.block-style_text-under-thumbnail {
+  position: absolute;
+  text-align: right;
+  top: 380px;
+  left: 519px;
+  width: 185px;
+  height: auto;
+}
+
+.block-style_text-under-thumbnail h1 {
+  font-family: "Cera Pro Regular";
+  color: black;
+  font-size: 16px;
+}
+
+.block-style_dark-grey {
+  position: absolute;
+  top: 588px;
+  left: 375px;
+  width: 130px;
+  height: 60px;
+  background-color: #898989;
+}
+
+.block-style_dark-grey_text {
+  position: absolute;
+  top: 658px;
+  left: 375px;
+  width: auto;
+  height: auto;
+}
+
+.block-style_colot-text {
+  font-family: "Cera Pro Bolt";
+  color: black;
+  font-size: 14px;
+}
+
+.block-style_grey {
+  position: absolute;
+  top: 676px;
+  left: 535px;
+  width: 130px;
+  height: 60px;
+  background-color: #b7b7b7;
+}
+
+.block-style_grey_text {
+  position: absolute;
+  top: 746px;
+  left: 536px;
+  width: auto;
+  height: auto;
+}
+
+.block-style_black {
+  position: absolute;
+  top: 676px;
+  left: 695px;
+  width: 130px;
+  height: 60px;
+  background-color: #000000;
+}
+
+.block-style_burgundy_text {
+  position: absolute;
+  top: 318px;
+  left: 1628px;
+  width: auto;
+  height: auto;
+  transform: rotate(270deg);
+}
+
+.block-style_burgundy {
+  position: absolute;
+  top: 386px;
+  left: 1384px;
+  width: 280px;
+  height: 70px;
+  background-color: #9a0034;
+}
+
+.block-style_pink {
+  position: absolute;
+  top: 499px;
+  left: 1094px;
+  width: 130px;
+  height: 60px;
+  background-color: #d7969e;
+}
+
+.block-style_pink_text {
+  position: absolute;
+  top: 575px;
+  left: 1095px;
+  width: auto;
+  height: auto;
+}
+
+.block-style_light-pink {
+  position: absolute;
+  top: 593px;
+  left: 1254px;
+  width: 130px;
+  height: 60px;
+  background-color: #e8d8d9;
+}
+
+.block-style_light-pink_text {
+  position: absolute;
+  top: 669px;
+  left: 1254px;
+  width: auto;
+  height: auto;
+}
+
+.block-style_light-gray {
+  position: absolute;
+  top: 593px;
+  left: 1414px;
+  width: 130px;
+  height: 60px;
+  background-color: #dedcdc;
+}
+
+.block-style_bright-text {
+  position: absolute;
+  top: 724px;
+  left: 1628px;
+  width: auto;
+  height: auto;
+}
+
+.block-style_bright-text h1 {
+  font-family: "Cera Pro Regular";
+  color: black;
+  font-size: 16px;
+  transform: rotate(270deg);
+}
+
+.block-style_img_main {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.block-style_img_mobile {
+  display: none;
+}
+
+.block-style_logo_bonum {
+  position: absolute;
+  top: 967px;
+  left: 255px;
+}
+
+.block-style_thanks-text {
+  position: absolute;
+  bottom: 457px;
+  left: 975px;
+  width: auto;
+  height: auto;
+  min-width: 205px;
+}
+
+.block-style_thanks-text h1 {
+  font-family: "Cera Pro Bolt";
+  color: black;
+  font-size: 72px;
+}
+
+.block-style_watching-text {
+  position: absolute;
+  bottom: 370px;
+  left: 942px;
+  width: auto;
+  height: auto;
+}
+
+.block-style_watching-text h1 {
+  font-family: "Cera Pro Regular";
+  color: black;
+  font-size: 14px;
+  transform: rotate(270deg);
+}
+
+@media all and (max-width: 1440px) {
+  .home {
+    height: 802px;
+  }
+  .home_blur-rectangle {
+    max-width: 700px;
+    height: auto;
+  }
+
+  .home_blur-rectangle_logo {
+    left: 140px;
+  }
+
+  .home_name-brand_main-text {
+    left: 140px;
+  }
+
+  .home_subtext {
+    left: 110px;
+  }
+
+  .home_icon-block {
+    width: 423px;
+    left: 140px;
+    top: 720px;
+  }
+
+  .home_icon-block_icon-menu {
+    width: 190px;
+  }
+
+  .home_white_rectangle {
+    width: 324px;
+    height: auto;
+  }
+
+  .home_logo_bonum {
+    left: 117px;
+  }
+
+  .home_white_rectangle_text {
+    left: 93px;
+  }
+
+  .block-style {
+    max-width: 1440px;
+    max-height: 1520px;
+  }
+
+  .block-style_dark-text {
+    left: 135px;
+  }
+
+  .block-style_russin-text {
+    left: 839px;
+  }
+
+  .block-style_thumbnail {
+    left: 185px;
+  }
+
+  .block-style_text-under-thumbnail {
+    left: 419px;
+  }
+
+  .block-style_dark-grey {
+    left: 185px;
+  }
+
+  .block-style_dark-grey_text {
+    left: 185px;
+  }
+
+  .block-style_grey {
+    left: 345px;
+  }
+
+  .block-style_grey_text {
+    left: 345px;
+  }
+
+  .block-style_black {
+    left: 505px;
+  }
+
+  .block-style_burgundy_text {
+    left: 1273px;
+  }
+
+  .block-style_burgundy {
+    left: 1025px;
+  }
+
+  .block-style_pink {
+    left: 735px;
+  }
+
+  .block-style_pink_text {
+    left: 735px;
+  }
+
+  .block-style_light-pink {
+    left: 895px;
+  }
+
+  .block-style_light-pink_text {
+    left: 895px;
+  }
+
+  .block-style_light-gray {
+    left: 1055px;
+  }
+
+  .block-style_bright-text {
+    left: 1273px;
+  }
+
+  .block-style_img_main svg {
+    height: 660px;
+    width: 705px;
+  }
+
+  .block-style_logo_bonum {
+    left: 135px;
+  }
+
+  .block-style_thanks-text {
+    left: 735px;
+  }
+
+  .block-style_watching-text {
+    left: 702px;
+  }
+}
+
+@media all and (max-width: 960px) {
+  .home {
+    height: 530px;
+    margin-bottom: 0;
+  }
+  .home_blur-rectangle {
+    max-width: 465px;
+  }
+
+  .home_blur-rectangle_logo {
+    left: 98px;
+  }
+
+  .home_blur-rectangle_logo svg {
+    height: 13px;
+    width: 100px;
+  }
+
+  .home_name-brand_main-text {
+    width: 290px;
+    left: 98px;
+    top: 123px;
+  }
+
+  .home_name-brand_main-text h1 {
+    font-size: 48px;
+  }
+
+  .home_subtext {
+    left: 66px;
+    top: 284px;
+  }
+
+  .home_icon-block {
+    left: 98px;
+    top: 479px;
+    width: 264px;
+  }
+
+  .home_icon-block_icon-menu {
+    width: 170px;
+  }
+
+  .home_white_rectangle {
+    max-width: 225px;
+  }
+
+  .home_logo_bonum {
+    left: 70px;
+  }
+
+  .home_logo_bonum svg {
+    width: 60px;
+    height: 15px;
+  }
+
+  .home_white_rectangle_text {
+    left: 40px;
+    top: 276px;
+  }
+
+  .block-style {
+    max-width: 960px;
+    max-height: 1400px;
+  }
+
+  .block-style_heading {
+    height: 30px;
+    margin-top: 70px;
+  }
+
+  .block-style_heading h1 {
+    font-size: 24px;
+  }
+
+  .block-style_dark-text {
+    top: 155px;
+    left: 88px;
+  }
+
+  .block-style_russin-text {
+    top: 154px;
+    left: 575px;
+  }
+
+  .block-style_russin-text h1 {
+    font-size: 13px;
+  }
+
+  .block-style_thumbnail {
+    top: 284px;
+    left: 145px;
+    width: 270px;
+  }
+
+  .block-style_thumbnail h1 {
+    font-size: 36px;
+  }
+
+  .block-style_text-under-thumbnail {
+    top: 363px;
+    left: 279px;
+  }
+
+  .block-style_text-under-thumbnail h1 {
+    font-size: 14px;
+  }
+
+  .block-style_dark-grey {
+    left: 145px;
+    top: 648px;
+    width: 80px;
+    height: 50px;
+  }
+
+  .block-style_dark-grey_text {
+    left: 145px;
+    top: 713px;
+  }
+
+  .block-style_grey {
+    left: 255px;
+    top: 731px;
+    width: 80px;
+    height: 50px;
+  }
+
+  .block-style_grey_text {
+    left: 255px;
+    top: 796px;
+  }
+
+  .block-style_black {
+    left: 365px;
+    top: 731px;
+    width: 90px;
+    height: 50px;
+  }
+
+  .block-style_burgundy_text {
+    left: 832px;
+    top: 335px;
+  }
+
+  .block-style_burgundy {
+    left: 655px;
+    top: 408px;
+    width: 210px;
+    height: 51px;
+  }
+
+  .block-style_pink {
+    left: 495px;
+    top: 547px;
+    width: 90px;
+    height: 50px;
+  }
+
+  .block-style_pink_text {
+    left: 495px;
+    top: 612px;
+  }
+
+  .block-style_light-pink {
+    left: 615px;
+    top: 630px;
+    width: 90px;
+    height: 50px;
+  }
+
+  .block-style_light-pink_text {
+    left: 615px;
+    top: 695px;
+  }
+
+  .block-style_light-gray {
+    left: 735px;
+    top: 630px;
+    width: 90px;
+    height: 50px;
+  }
+
+  .block-style_bright-text {
+    left: 832px;
+    top: 782px;
+  }
+
+  .block-style_img_main svg {
+    height: 465px;
+    width: 496px;
+  }
+
+  .block-style_logo_bonum {
+    top: 935px;
+    left: 135px;
+  }
+
+  .block-style_thanks-text {
+    left: 495px;
+    bottom: 298px;
+  }
+
+  .block-style_thanks-text h1 {
+    font-size: 48px;
+  }
+
+  .block-style_watching-text {
+    left: 462px;
+    bottom: 198px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .home {
+    background-image: url(../image/Virna_oblojka_home768.png);
+    height: 457px;
+    margin-bottom: 0;
+  }
+  .home_blur-rectangle {
+    max-width: 399px;
+  }
+
+  .home_blur-rectangle_logo {
+    left: 39px;
+    top: 30px;
+  }
+
+  .home_blur-rectangle_logo svg {
+    height: 16px;
+    width: 120px;
+  }
+
+  .home_name-brand_main-text {
+    left: 40px;
+    top: 106px;
+  }
+
+  .home_name-brand_main-text h1 {
+    font-size: 42px;
+  }
+
+  .home_subtext {
+    left: 10px;
+    top: 272px;
+  }
+
+  .home_icon-block {
+    left: 39px;
+    top: 407px;
+  }
+
+  .home_white_rectangle {
+    max-width: 129px;
+  }
+
+  .home_logo_bonum {
+    left: 45px;
+    top: 30px;
+  }
+
+  .home_logo_bonum svg {
+    width: 45px;
+    height: 14px;
+  }
+
+  .home_white_rectangle_text {
+    left: 0px;
+    top: 244px;
+  }
+
+  .block-style {
+    max-width: 768px;
+    max-height: 1275px;
+  }
+
+  .block-style_heading {
+    height: 28px;
+    margin-top: 50px;
+  }
+
+  .block-style_heading h1 {
+    font-size: 22px;
+  }
+
+  .block-style_dark-text {
+    top: 142px;
+    left: 26px;
+  }
+
+  .block-style_russin-text {
+    width: 268px;
+    top: 128px;
+    left: 461px;
+  }
+
+  .block-style_russin-text h1 {
+    font-size: 12px;
+  }
+
+  .block-style_thumbnail {
+    top: 258px;
+    left: 89px;
+  }
+
+  .block-style_thumbnail h1 {
+    font-size: 32px;
+  }
+
+  .block-style_text-under-thumbnail {
+    top: 338px;
+    left: 183px;
+  }
+
+  .block-style_text-under-thumbnail h1 {
+    font-size: 13px;
+  }
+
+  .block-style_dark-grey {
+    left: 89px;
+    top: 617px;
+    width: 70px;
+    height: 50px;
+  }
+
+  .block-style_dark-grey_text {
+    left: 89px;
+    top: 682px;
+  }
+
+  .block-style_grey {
+    left: 189px;
+    top: 700px;
+    width: 70px;
+    height: 50px;
+  }
+
+  .block-style_grey_text {
+    left: 190px;
+    top: 765px;
+  }
+
+  .block-style_black {
+    left: 289px;
+    top: 700px;
+    width: 70px;
+  }
+
+  .block-style_burgundy_text {
+    left: 690px;
+    top: 310px;
+  }
+
+  .block-style_burgundy {
+    left: 519px;
+    top: 382px;
+    width: 190px;
+  }
+
+  .block-style_pink {
+    left: 399px;
+    top: 509px;
+    width: 70px;
+  }
+
+  .block-style_pink_text {
+    left: 400px;
+    top: 574px;
+  }
+
+  .block-style_light-pink {
+    left: 499px;
+    top: 592px;
+    width: 70px;
+  }
+
+  .block-style_light-pink_text {
+    left: 499px;
+    top: 657px;
+  }
+
+  .block-style_light-gray {
+    left: 599px;
+    top: 592px;
+    width: 70px;
+  }
+
+  .block-style_bright-text {
+    left: 690px;
+    top: 750px;
+  }
+
+  .block-style_img_main svg {
+    height: 416px;
+    width: 369px;
+  }
+
+  .block-style_logo_bonum {
+    top: 883px;
+    left: 39px;
+  }
+
+  .block-style_thanks-text {
+    left: 399px;
+    bottom: 268px;
+  }
+
+  .block-style_thanks-text h1 {
+    font-size: 42px;
+  }
+
+  .block-style_watching-text {
+    left: 364px;
+    bottom: 182px;
+  }
+}
+
+@media all and (max-width: 360px) {
+  .home {
+    background-image: url(../image/Virna_oblojka_home360.png);
+  }
+  .home_blur-rectangle {
+    max-width: 165px;
+  }
+
+  .home_blur-rectangle_logo {
+    display: none;
+  }
+
+  .home_name-brand_main-text {
+    display: none;
+  }
+
+  .home_subtext {
+    display: none;
+  }
+
+  .home_icon-block {
+    left: 16px;
+    top: 407px;
+  }
+
+  .home_icon-block_icon-menu {
+    width: 140px;
+  }
+
+  .home_icon-block_group-icon_language {
+    display: none;
+  }
+
+  .home_white_rectangle_language {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    bottom: 30px;
+    right: 15px;
+  }
+
+  .home_white_rectangle {
+    max-width: 129px;
+  }
+
+  .home_logo_bonum {
+    left: 9px;
+    top: 31px;
+  }
+
+  .home_white_rectangle_text {
+    left: -30px;
+    top: 250px;
+  }
+
+  .block-style {
+    max-width: 360px;
+    max-height: 1415px;
+  }
+
+  .block-style_heading {
+    text-align: start;
+    padding-left: 15px;
+  }
+
+  .block-style_dark-text {
+    top: 238px;
+    left: 3px;
+  }
+
+  .block-style_dark-text h1 {
+    font-size: 12px;
+  }
+
+  .block-style_russin-text {
+    top: 110px;
+    left: 46px;
+  }
+
+  .block-style_thumbnail {
+    top: 294px;
+    left: 46px;
+  }
+
+  .block-style_text-under-thumbnail {
+    top: 374px;
+    left: 159px;
+  }
+
+  .block-style_dark-grey {
+    left: 15px;
+    top: 768px;
+  }
+
+  .block-style_dark-grey_text {
+    left: 15px;
+    top: 833px;
+  }
+
+  .block-style_grey {
+    left: 115px;
+    top: 851px;
+  }
+
+  .block-style_grey_text {
+    left: 116px;
+    top: 916px;
+  }
+
+  .block-style_black {
+    left: 215px;
+    top: 851px;
+  }
+
+  .block-style_burgundy_text {
+    left: 304px;
+    top: 442px;
+  }
+
+  .block-style_burgundy {
+    left: 195px;
+    top: 505px;
+    width: 133px;
+    height: 50px;
+  }
+
+  .block-style_pink {
+    left: 175px;
+    top: 605px;
+  }
+
+  .block-style_pink_text {
+    left: 176px;
+    top: 670px;
+  }
+
+  .block-style_light-pink {
+    left: 75px;
+    top: 605px;
+  }
+
+  .block-style_light-pink_text {
+    left: 75px;
+    top: 671px;
+  }
+
+  .block-style_light-gray {
+    left: 275px;
+    top: 688px;
+  }
+
+  .block-style_bright-text {
+    left: 310px;
+    top: 904px;
+  }
+
+  .block-style_img_main {
+    display: none;
+  }
+
+  .block-style_img_mobile {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .block-style_img_mobile svg {
+    width: 360px;
+    height: 416px;
+  }
+
+  .block-style_logo_bonum {
+    top: 1037px;
+    left: 15px;
+  }
+
+  .block-style_thanks-text {
+    left: 127px;
+    top: 1105px;
+  }
+
+  .block-style_watching-text {
+    left: 93px;
+    bottom: 160px;
+  }
+}
